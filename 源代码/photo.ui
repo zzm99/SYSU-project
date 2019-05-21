@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>photo</class>
+ <widget class="QWidget" name="photo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1139</width>
+    <height>741</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1141</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/image/cool-background.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <property name="text">
+    <string>南校园：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <property name="text">
+    <string>东校园：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <property name="text">
+    <string>北校园：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <property name="text">
+    <string>深圳校园：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <property name="text">
+    <string>珠海校园：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>惺亭</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>进士牌坊</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>中区草坪</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>格兰堂</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>怀士堂</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>中山铜像</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>校训</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>工学院</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>传播学院大楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>体育场</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍区</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南北学院楼</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>孙中山铜像</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>医学图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>医学博物馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>天使在人间</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>深圳校区俯视图</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>深圳校区广场</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_5">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>60</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(251, 255, 253);
+font: 15pt &quot;汉仪蝶语体简&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>逸仙大道</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学实验大楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>风雨操场</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>校园全景</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>隐湖畔</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>1121</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

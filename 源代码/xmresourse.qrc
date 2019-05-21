@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/png">
+        <file>image/hotdog.png</file>
+        <file>image/返回.png</file>
+        <file>image/关闭.png</file>
+        <file>image/timg.png</file>
+        <file>image/中大新闻.png</file>
+        <file>image/sunyatsen.jpg</file>
+        <file>image/直线.png</file>
+        <file>image/校区标题.png</file>
+        <file>image/nan1.png</file>
+        <file>image/return.png</file>
+        <file>image/bei.png</file>
+        <file>image/dong.png</file>
+        <file>image/nan.png</file>
+        <file>image/shen.png</file>
+        <file>image/zhu.png</file>
+    </qresource>
+    <qresource prefix="/jpg">
+        <file>image/xiaoyuan.jpg</file>
+        <file>image/beijing1.jpg</file>
+        <file>image/bei.png</file>
+        <file>image/dong.png</file>
+        <file>image/nan.png</file>
+        <file>image/shen.png</file>
+        <file>image/zhu.png</file>
+    </qresource>
+</RCC>

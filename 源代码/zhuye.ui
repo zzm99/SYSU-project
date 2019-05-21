@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>zhuye</class>
+ <widget class="QMainWindow" name="zhuye">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1086</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>主页</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1091</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>180</y>
+       <width>269</width>
+       <height>369</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QCommandLinkButton" name="LinkButton_jilupian">
+        <property name="font">
+         <font>
+          <family>汉仪蝶语体简</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCommandLinkButton{
+	background-color: rgba(255, 250, 224, 200);
+	border-style:outset;
+	border-width:4px;
+	border-radius:15px;
+	border-color:rgba(255,255,255,30);	
+	font: 18pt &quot;汉仪蝶语体简&quot;;
+	color:rgb(0,0,0);
+	padding:6px;
+}
+
+QCommandLinkButton:pressed{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,30);
+   border-style:inset;
+  	color:rgba(0,0,0,100);
+}
+
+QCommandLinkButton:hover{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,200);
+   color:rgba(0,0,0,200);
+}</string>
+        </property>
+        <property name="text">
+         <string>中大记录片</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCommandLinkButton" name="LinkButton_xinwen">
+        <property name="font">
+         <font>
+          <family>汉仪蝶语体简</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCommandLinkButton{
+	background-color: rgba(255, 250, 224, 200);
+	border-style:outset;
+	border-width:4px;
+	border-radius:15px;
+	border-color:rgba(255,255,255,30);	
+	font: 18pt &quot;汉仪蝶语体简&quot;;
+	color:rgb(0,0,0);
+	padding:6px;
+}
+
+QCommandLinkButton:pressed{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,30);
+   border-style:inset;
+  	color:rgba(0,0,0,100);
+}
+
+QCommandLinkButton:hover{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,200);
+   color:rgba(0,0,0,200);
+}</string>
+        </property>
+        <property name="text">
+         <string>中大新闻资讯</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCommandLinkButton" name="LinkButton_xiaoqu">
+        <property name="font">
+         <font>
+          <family>汉仪蝶语体简</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCommandLinkButton{
+	background-color: rgba(255, 250, 224, 200);
+	border-style:outset;
+	border-width:4px;
+	border-radius:15px;
+	border-color:rgba(255,255,255,30);	
+	font: 18pt &quot;汉仪蝶语体简&quot;;
+	color:rgb(0,0,0);
+	padding:6px;
+}
+
+QCommandLinkButton:pressed{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,30);
+   border-style:inset;
+  	color:rgba(0,0,0,100);
+}
+
+QCommandLinkButton:hover{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,200);
+   color:rgba(0,0,0,200);
+}</string>
+        </property>
+        <property name="text">
+         <string>中大校区特色</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCommandLinkButton" name="LinkButton_zhuanyeluqu">
+        <property name="font">
+         <font>
+          <family>汉仪蝶语体简</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCommandLinkButton{
+	background-color: rgba(255, 250, 224, 200);
+	border-style:outset;
+	border-width:4px;
+	border-radius:15px;
+	border-color:rgba(255,255,255,30);	
+	font: 18pt &quot;汉仪蝶语体简&quot;;
+	color:rgb(0,0,0);
+	padding:6px;
+}
+
+QCommandLinkButton:pressed{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,30);
+   border-style:inset;
+  	color:rgba(0,0,0,100);
+}
+
+QCommandLinkButton:hover{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,200);
+   color:rgba(0,0,0,200);
+}</string>
+        </property>
+        <property name="text">
+         <string>推荐专业查询</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCommandLinkButton" name="LinkButton_zhaunyechaxun">
+        <property name="font">
+         <font>
+          <family>汉仪蝶语体简</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCommandLinkButton{
+	background-color: rgba(255, 250, 224, 200);
+	border-style:outset;
+	border-width:4px;
+	border-radius:15px;
+	border-color:rgba(255,255,255,30);	
+	font: 18pt &quot;汉仪蝶语体简&quot;;
+	color:rgb(0,0,0);
+	padding:6px;
+}
+
+QCommandLinkButton:pressed{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,30);
+   border-style:inset;
+  	color:rgba(0,0,0,100);
+}
+
+QCommandLinkButton:hover{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,200);
+   color:rgba(0,0,0,200);
+}</string>
+        </property>
+        <property name="text">
+         <string>专业信息查询</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCommandLinkButton" name="LinkButton_zhengce">
+        <property name="font">
+         <font>
+          <family>汉仪蝶语体简</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCommandLinkButton{
+	background-color: rgba(255, 250, 224, 200);
+	border-style:outset;
+	border-width:4px;
+	border-radius:15px;
+	border-color:rgba(255,255,255,30);	
+	font: 18pt &quot;汉仪蝶语体简&quot;;
+	color:rgb(0,0,0);
+	padding:6px;
+}
+
+QCommandLinkButton:pressed{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,30);
+   border-style:inset;
+  	color:rgba(0,0,0,100);
+}
+
+QCommandLinkButton:hover{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,200);
+   color:rgba(0,0,0,200);
+}</string>
+        </property>
+        <property name="text">
+         <string>中大招生政策</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>490</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>汉仪蝶语体简</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgba(255, 250, 224, 200);
+	border-style:outset;
+	border-width:4px;
+	border-radius:15px;
+	border-color:rgba(255,255,255,30);
+	font: 16pt &quot;汉仪蝶语体简&quot;;
+	color:rgb(0,0,0);
+	padding:6px;
+}
+
+QPushButton:pressed{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,30);
+   border-style:inset;
+  	color:rgba(0,0,0,100);
+}
+
+QPushkButton:hover{
+   background-color:rgba(255, 250, 224, 150);
+   border-color:rgba(255,255,255,200);
+   color:rgba(0,0,0,200);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>退出</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>-40</x>
+       <y>-20</y>
+       <width>1141</width>
+       <height>731</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/image/background.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>90</y>
+       <width>301</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/image/daxue.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>-30</y>
+       <width>331</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/image/zhongshan.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>layoutWidget</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_3</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1086</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>GitHub</string>
+    </property>
+    <addaction name="GithubPage"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="liaojiewomen">
+   <property name="text">
+    <string>了解我们</string>
+   </property>
+  </action>
+  <action name="GithubPage">
+   <property name="text">
+    <string>GitHub主页</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>zhuye</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>549</x>
+     <y>349</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
