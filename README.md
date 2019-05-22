@@ -1,7 +1,6 @@
 # 中山大学志愿填报辅助系统
 
-![1111](演示.mp4)
-
+<video src="演示.mp4" width="320" height="240" controls="controls">Your browser does not support the video tag.</video>
 ## 一、项目名称
 
    ### [中山大学志愿填报辅助系统](http://ecw.sysu.edu.cn:8000/files/team/BK50UKN9.docx)
